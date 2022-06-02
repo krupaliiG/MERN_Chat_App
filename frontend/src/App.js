@@ -7,7 +7,7 @@ function App() {
   return (
     <Switch>
       <Route exact path="/" component={HomePage} />
-      <Route exact path="/chats" component={ChatPage} />
+      <Route exact path="/api/chat/" component={ChatPage} />
     </Switch>
   );
 }

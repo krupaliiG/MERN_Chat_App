@@ -11,6 +11,7 @@ app.get("/", (request, response) => {
 });
 
 app.get("/api/chat", (request, response) => {
+  console.log("Hii....");
   response.send(chats);
 });
 
